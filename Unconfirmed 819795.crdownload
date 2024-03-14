@@ -4,7 +4,7 @@ int main()
     
 {
     int counter = 600;
-    printf("light\n");
+    printf("light\n"); //Flip the light swich
      enable_servos();
     set_servo_position(0, counter);
     msleep(100);
@@ -48,6 +48,6 @@ int main()
    set_servo_position(0, counter);
    
     } 
-    msleep(100);
+    msleep(100); //end code
     return 0;
 }
