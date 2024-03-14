@@ -7,16 +7,16 @@ int main()
     printf("light\n");
      enable_servos();
     set_servo_position(0, counter);
-    msleep(100);
+    msleep(200);
     motor(0,98);
     motor(3,100);// forward
     msleep(6100);
     
     motor(0,-98);
     motor(3,100);// rock turn
-    msleep(1000);
+    msleep(1200);
     
-    motor(0,98);
+    motor(0,97);
     motor(3,-100);// rock back 
     msleep(1000);
     
